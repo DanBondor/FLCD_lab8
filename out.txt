@@ -1,0 +1,69 @@
+Reserved word: start_prg
+Reserved word: number
+Identifier: n
+Separator: ,
+Identifier: isprime
+Operator: :=
+Constant: 1
+Separator: ;
+Reserved word: if
+Identifier: n
+Operator: <=
+Constant: 1
+Separator: :
+Reserved word: start
+Identifier: n
+Operator: :=
+0Separator: ;
+Reserved word: stop
+Reserved word: loop
+Reserved word: number
+Identifier: i
+Operator: :=
+Constant: 2
+Separator: ;
+Identifier: i
+Operator: <
+Identifier: n
+Separator: ;
+Identifier: i
+Operator: +
+=Constant: 1
+Separator: :
+Reserved word: start
+Reserved word: if
+Identifier: n
+%Identifier: i
+Operator: ==
+0Separator: :
+Reserved word: start
+Identifier: isprime
+Operator: :=
+0Separator: ;
+Reserved word: stop
+Reserved word: stop
+Reserved word: if
+Identifier: isprime
+Operator: ==
+Constant: 1
+Separator: :
+Reserved word: start
+Reserved word: print
+Expected end of string on line 15
+Identifier: r
+Identifier: is
+Identifier: prime
+"Separator: ;
+Reserved word: stop
+Reserved word: else
+Separator: :
+Reserved word: start
+Reserved word: print
+Expected end of string on line 19
+Identifier: r
+Identifier: is
+Identifier: not
+Identifier: prime
+"Separator: ;
+Reserved word: stop
+Reserved word: end_prg
